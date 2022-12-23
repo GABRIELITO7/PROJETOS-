@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCADINHO DO SULAMBO</title>
+</head>
+<body>
+<h1>MERCADINHO DO SULAMBO</h1>
+<h2>Conheça nossos produtos:</h2>
+<div style="display: flex ;" > 
+<div style="background-color: darkorchid ; border-radius: 13px 13px 13px 13px ; border: 3px solid orchid ; color: antiquewhite; margin-right: 10px ; " >
+<h3>Arroz</h3>
+<h4>Preço: R$20.50</h4>
+<img src="https://static.clubeextra.com.br/img/uploads/1/351/590351.png" width="200" height="200" alt="" srcset="">
+<br>
+<button style="background-color: green ; color: azure ; font-weight: bolder; border-radius: 50px;" onclick="adicionarCarrinho('arroz')" >Adicionar</button>
+</div>
+<div style="background-color: blueviolet ; border-radius: 13px 13px 13px 13px ; border: 3px solid orchid ; color: antiquewhite; margin-right: 10px ;"> 
+<h3>Frango</h3>
+<h4>Preço: R$24.50 </h4>
+<img src="https://www.pngplay.com/wp-content/uploads/6/Running-Chicken-Transparent-PNG.png" width="200" height="200" alt="" srcset="">
+<br>
+<button style="background-color: green ; color: azure ; font-weight: bolder; border-radius: 50px;"onclick="adicionarCarrinho('frango')">Adicionar</button>
+</div>
+<div style="background-color: darkslateblue ; border-radius: 13px 13px 13px 13px ; border: 3px solid orchid ; color: antiquewhite; margin-right: 10px ;">
+<h3>Ovos</h3>
+<h4>Preço: R$15.00 </h4>
+<img src="https://www.supermercadosbh.com.br/wp-content/uploads/2020/09/OVOS-BRANCOS.png" width="200" height="200" alt="" srcset="">
+<br>
+<button style="background-color: green ; color: azure ; font-weight: bolder; border-radius: 50px;" onclick="adicionarCarrinho('ovos')">Adicionar</button>
+</div>
+<div style="background-color: fuchsia ; border-radius: 13px 13px 13px 13px ; border: 3px solid orchid ; color: antiquewhite; margin-right: 10px ;">
+<h3>Feijão Pantera</h3>
+<h4>Preço: R$7.00</h4>
+<img src="https://pantera.com.br/wp-content/uploads/2021/06/saco-feijao-a-marca.png" width="200" height="200" alt="" srcset="">
+<br>
+<button style="background-color: green ; color: azure ; font-weight: bolder; border-radius: 50px;" onclick="adicionarCarrinho('feijão')">Adicionar</button>
+</div>
+<div style="background-color: tomato ; border-radius: 13px 13px 13px 13px ; border: 3px solid orchid ; color: antiquewhite; margin-right: 10px ;">
+<h3>Pão</h3>
+<h4>Preço: R$7.00 </h4>
+<img src="https://panco.com.br/images/produtos/opt-png/paes/Premium.png" width="200" height="200" alt="" srcset="">
+<br>
+<button style="background-color: green ; color: azure ; font-weight: bolder; border-radius: 50px;"onclick="adicionarCarrinho('pão')">Adicionar</button>
+</div>
+<div style="background-color: hotpink ; border-radius: 13px 13px 13px 13px ; border: 3px solid orchid ; color: antiquewhite; margin-right: 10px ; ">
+<h3>Batata doce</h3>
+<h4>Preço: R$5.00 </h4>
+<img src="http://matonoprato.com.br/wp-content/uploads/2019/10/batata-doce2.png" width="200" height="200" alt="" srcset="">
+<br>
+<button style="background-color: green ; color: azure ; font-weight: bolder; border-radius: 50px;" onclick="adicionarCarrinho('batata doce')">Adicionar</button>
+</div>
+</div>
+<br>
+<br>
+<div> 
+<h3>CARRINHO SULAMBINHO</h3>
+<img src="https://cdn.pixabay.com/photo/2014/04/03/10/00/shopping-cart-309592_960_720.png" width="300" height="300" alt="" srcset="">
+</div>
+<div>
+<table id="carrinho" style="border: 7px red solid">
+<tr>
+<th>
+QUANTIDADE
+</th>
+<th>
+Nome Item
+</th>
+<th>
+Valor
+</th>
+</tr>
+</table>
+<div>
+<span>
+Total
+</span>
+<span id="valorTotal">
+R$
+</span>
+</div>
+</div>
+<script src="index.js">
+</script>
+</body>
+</html>
+
